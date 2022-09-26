@@ -4,11 +4,22 @@ h1 {
 	color: Gray;
 	font-size: 35px;}
 h2 {
-	color: Gray;}
+	color: Gray;
+	font-size: 25px;}
 p {
-	color: Gray;}
+	color: DarkBlue;
+	background-color: Lavender;
+	font-size: 16px;}
 ol {
-	color: Gray;}
+	color: Gray;
+	font-size: 16px;
+	list-style-type: upper-alpha;}
 ul {
-	color: Gray;}
-}
+	color: Gray;
+	font-size: 16px;
+	list-style-type: square;}
+.profile-image {
+	border-style: dotted;
+	border-width: 2px;
+	width: 200px;
+	height: 200px;}
