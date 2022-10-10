@@ -2,7 +2,10 @@ body {
 	background-color: Ivory;}
 h1 {
 	color: Gray;
-	font-size: 35px;}
+	font-size: 35px;
+	border: 2px solid #A52A2A;
+	padding: 5px;
+	margin-right: 1000px;}
 h2 {
 	color: Gray;
 	font-size: 25px;}
@@ -24,4 +27,12 @@ ul {
 	width: 200px;
 	height: 200px;}
 .link {
-	text-align:right}
+	text-align:right;
+	background-color: Aquamarine;}
+a {
+	border-radius: 20px;
+	border: 2px solid #A52A2A;
+	padding: 5px;
+	background-color: BlanchedAlmond}
+figure {
+	margin-left: 0px;}
