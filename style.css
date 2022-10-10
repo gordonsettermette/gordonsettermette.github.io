@@ -12,7 +12,6 @@ h2 {
 	margin-left: 10px;}
 p {
 	color: DarkBlue;
-	background-color: Lavender;
 	font-size: 16px;}
 ol {
 	color: Gray;
@@ -46,4 +45,9 @@ a {
 figure {
 	margin-left: 0px;}
 aside {
-	float:right;}
+	float:right;
+	background-color: DarkRed;}
+section {
+	background-color: DarkGoldenRod;}
+nav {
+	background-color: Black;}
