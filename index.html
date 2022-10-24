@@ -2,48 +2,84 @@
 <html>
 	<head>
 		<title>Zettertjärn's Qaruzella</title>
-		<link href="./style.css" rel="stylesheet">
+		<link href="./styles.css" rel="stylesheet">
 	</head>
 	<body>
-	<header>
-		<h1>Zettertjärn's Qaruzella</h1>
-	</header>
 	<nav>
-		<a href="https://gordonsettermette.github.io/">Home</a>
 		<a href="https://gordonsettermette.github.io/portfolio">Portfolio</a>
-		<a href="#contact">Contact</a>
 	</nav>
 	<aside>
-		<div class="profile-image">
+		<div id="palkki">
 		</div>
-		<h2>Skills to learn</h2>
-		<ul>
-			<li>Coming.</li>
-			<li>Obeying whistle.</li>
-			<li>Pointing.</li>
-		</ul>
 	</aside>
-	<section>
-		<p>A gordon setter named Mette. One and a half years old bitch.</p>
-		<h2>Skills</h2>
-		<ol>
-			<li>Laying down.</li>
-			<li>Sitting.</li>
-			<li>Staying still.</li>
-			<li>Fetching</li>
-		</ol>
-		<article>
-			<p>Date of birth 8.3.2021</p>
-		</article>
-		<article>
-			<p>Date of moving to Finland 2.5.2021</p>
-		</article>
-		<article>
-			<p>Date of registration 7.6.2021</p>
-		</article>
+	<header>
+		<img src="IMG11.JPG" width="249" height="262" alt="Mette's face" id="image">
+		<h1>Zettertjärn's Qaruzella</h1>
+		<h2 id="otsikko">A gordon setter named Mette</h2>
+	</header>
+	<aside class="lists">
+		<div class="lista1">
+		<h2 class="hlist">Interests</h2>
+		<dl id="interests">
+			<dt class="selitys"><b>Birds</b></dt>
+			<dd>Interested in all kinds of birds.</dd>
+			<dt class="selitys"><b>Hunting</b></dt>
+			<dd>Interested in hunting birds and rabbits and retrieving things.</dd>
+			<dt class="selitys"><b>Friends</b></dt>
+			<dd>Interested in dog friends, especially sister Kuura.</dd>
+		</dl>
+		</div>
+		<div class="lista2">
+		<h2 class="hlist">Skills</h2>
+		<h3>Hunting</h3>
+		<label for="Coming">Coming</label>
+		<progress id="Coming" max="100" value="60">60%</progress>
+		<br>
+		<label for="Staying">Staying still</label>
+		<progress id="Staying" max="100" value="40">40%</progress>
+		<br>
+		<label for="Pointing">Pointing</label>
+		<progress id="Pointing" max="100" value="30">30%</progress>
+		<br>
+		<label for="Fetching">Fetching</label>
+		<progress id="Fetching" max="100" value="90">90%</progress>
+		<h3>Everyday skills</h3>
+		<label for="Sitting">Sitting</label>
+		<progress id="Sitting" max="100" value="90">90%</progress>
+		<br>
+		<label for="Laying">Laying down</label>
+		<progress id="Laying" max="100" value="95">95%</progress>
+		<br>
+		<label for="Walking">Walking on a leash</label>
+		<progress id="Walking" max="100" value="50">50%</progress>
+		</div>
+	</aside>
+	<section id="index">
+		<h2>About</h2>
+		<p>Mette is a one and a half years old bitch. She is training to be a pointing dog in the future.</p>
+		<br><br><br>
+		<h2>Basic information</h2>
+		<div class="artikkeli">
+			<h3 class="kolmoset">Breeder</h3>
+			<p class="kolme">Kennel Zettertjärn's, Sweden</p>
+			<h3 class="kolmoset">Sire</h3>
+			<p class="kolme">What A Man Von Der Wilden Horde</p>
+			<h3 class="kolmoset">Dam</h3>
+			<p class="kolme">Zettertjärn's Anizette</p>
+			<h3 class="kolmoset">Color</h3>
+			<p class="kolme">Black & tan</p>
+		<br><br><br>
+		<h2 id="pvm">Dates</h2>
+			<h3 class="kolmoset">Date of birth</h3>
+			<p class="kolme">8.3.2021</p>	
+			<h3 class="kolmoset">Date of moving to Finland</h3>
+			<p class="kolme">2.5.2021</p>
+			<h3 class="kolmoset">Date of registration</h3>
+			<p class="kolme">7.6.2021</p>
+		</div>
 	</section>
 	<footer>
-		<h3>Contact</h3>
+		<h2 id="yhteys">Contact</h2>
 		<address>
 			<p>Contact information would be here.</p>
 		</address>
