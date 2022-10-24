@@ -1,0 +1,141 @@
+body {
+	background-color: #100D0D;
+	font-family: Helvetica;}
+nav {
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	right: 15px;}
+a {
+	text-decoration: none;}
+a:link {
+	color: Peru;}
+a:visited {
+	color: DarkSlateGrey;}
+a:hover {
+	color: #841111;}
+h1 {
+	color: #841111;
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-left: 150px;
+	margin-top: 100px;}
+h2 {
+	color: #841111;
+	font-size: 20px;
+	margin-left: 150px;}
+#otsikko {
+	margin-top: 0;
+	margin-bottom: 200px;}
+#image {
+	float: right;
+	border: 10px solid DarkSlateGrey;
+	border-radius: 150px;
+	position: absolute;
+	top: 50px;
+	right: 200px;}
+#palkki {
+	float: left;
+	background-color: DarkSlateGrey;
+	height: 1250px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;}
+p {
+	color: Peru;
+	margin-left: 150px;}	
+#interests {
+	color: Peru;	
+	margin: 0 0 0 0;
+	padding: 5px 0 5px 0px;
+	font-size: 14px;
+	list-style-image: url('tassut.JPG');}
+.lists {
+	display: grid;
+	row-gap: 60px;
+	float: right;
+	position: absolute;
+	right: 30px;
+	left: 1000px;}
+.hlist {
+	margin-left: 0;}
+.lista1 {
+	grid-row: 1;
+	background-color: DarkSlateGrey;
+	margin-right: 150px;
+	padding: 5px 50px 10px 30px;}
+.lista2 {
+	grid-row: 2;
+	background-color: DarkSlateGrey;
+	margin-right: 150px;
+	padding: 5px 50px 10px 30px;
+	color: Peru;
+	font-size: 14px;}
+#Coming {
+	position: absolute;
+	right: 180px;}
+#Staying {
+	position: absolute;
+	right: 180px;}
+#Pointing {
+	position: absolute;
+	right: 180px;}
+#Fetching {
+	position: absolute;
+	right: 180px;}
+#Sitting {
+	position: absolute;
+	right: 180px;}
+#Laying {
+	position: absolute;
+	right: 180px;}
+#Walking {
+	position: absolute;
+	right: 180px;}
+progress {
+	accent-color: #841111;}
+.kolmoset {
+	color: Peru;
+	margin-left: 150px;
+	font-size: 16px;
+	grid-column: 1;}
+.artikkeli {
+	display: grid;}
+.kolme {
+	grid-column: 2;}
+#pvm {
+	grid-column: 1;}
+#yhteys {
+	color: #841111;}
+#kuva1 {
+	margin-left: 150px;
+	grid-column: 1;}
+.osio {
+	display: grid;
+	align-items: center;
+	margin-right: 600px;}
+.teksti1 {
+	grid-column: 2;}
+#kuva2 {
+	margin-left: 150px;
+	grid-column: 2;}
+.teksti2 {
+	grid-column: 1;}
+#kuva3 {
+	margin-left: 150px;
+	grid-column: 1;}
+.teksti3 {
+	grid-column: 2;}
+.selitys {
+	display: list-item;
+	list-style-image: url('tassut.JPG');}
+#index {
+	position: absolute;
+	right: 500px;
+	left: 50px;}
+footer {
+	position: absolute;
+	top: 1050px;
+	right: 250px;}
