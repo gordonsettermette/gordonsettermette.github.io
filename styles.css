@@ -130,7 +130,7 @@ progress {
 	grid-column: 2;}
 .selitys {
 	display: list-item;
-	list-style-image: url('tassut.JPG');}
+	list-style-image: url('tassut.jpg');}
 #index {
 	position: absolute;
 	right: 500px;
